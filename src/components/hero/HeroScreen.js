@@ -5,6 +5,7 @@ import { getHeroById } from "../../selectors/getHeroById";
 
 
 export const HeroScreen = () => {
+  console.log(process.env);
 
     const {heroeId} = useParams();
     const navigate = useNavigate();
@@ -30,7 +31,7 @@ export const HeroScreen = () => {
       characters
     } = hero;
 
-    const imagePath = process.env.PUBLIC_URL+`/assets/${id}.jpg`;
+    const imagePath = `../assets/${id}.jpg`;
   
     return (
       <div className="row mt-5">

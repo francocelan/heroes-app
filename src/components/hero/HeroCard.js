@@ -9,7 +9,7 @@ export const HeroCard = ({
     characters,
 }) => {
 
-const imagePath = process.env.PUBLIC_URL+`/assets/${id}.jpg`;
+const imagePath = `../assets/${id}.jpg`;
 
   return (
       <div className="col animate__animated animate__fadeIn">
