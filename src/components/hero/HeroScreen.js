@@ -30,7 +30,7 @@ export const HeroScreen = () => {
       characters
     } = hero;
 
-    const imagePath = `/assets/${id}.jpg`;
+    const imagePath = `../assets/${id}.jpg`;
   
     return (
       <div className="row mt-5">
