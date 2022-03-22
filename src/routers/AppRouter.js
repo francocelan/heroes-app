@@ -9,7 +9,7 @@ import { PublicRoute } from "./PublicRoute"
 
 export const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/heroes-app/">
         <Routes>
             
             <Route path="/login" element={ 
